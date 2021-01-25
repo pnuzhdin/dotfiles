@@ -12,7 +12,7 @@
 # Setup
 
 1. Linux: `git clone --separate-git-dir=$HOME/.dotfiles https://github.com/pnuzhdin/dotfiles $HOME/dotfiles-tmp`
-1. Windows: `git clone --separate-git-dir=$HOME/.dotfiles https://github.com/pnuzhdin/dotfiles $HOME/dotfiles-tmp`
+1. Windows: `git clone --branch windows --separate-git-dir=$HOME/.dotfiles https://github.com/pnuzhdin/dotfiles $HOME/dotfiles-tmp`
 1. `rm -r $HOME/dotfiles-tmp/`
 1. `alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
 1. `config config status.showUntrackedFiles no`
