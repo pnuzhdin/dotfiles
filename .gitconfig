@@ -1,0 +1,31 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[winUpdater]
+	recentlySeenVersion = 2.23.0.windows.1
+[credential]
+	helper = manager
+[oh-my-zsh]
+	hide-dirty = 1
+	hide-status = 1
+[user]
+	name = Pavel Nuzhdin
+	email = pnzhdin@gmail.com
+[github]
+	user = pnuzhdin
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[alias]
+	glog = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[push]
+	default = simple
+[core]
+	editor = vim
+[pull]
+	ff = only
