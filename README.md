@@ -27,6 +27,7 @@
 ## Vim
 
 1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+1. `mkdir -p ~/.vim/back && mkdir -p ~/.vim/swp`
 1. `vim +PluginInstall +qall`
 
 ## ZSH
